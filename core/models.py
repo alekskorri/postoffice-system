@@ -18,12 +18,6 @@ class Order(models.Model):
     date_received = models.DateField(null=True, blank=True)
     image = models.ImageField(upload_to='uploads/', blank=True, null=True)
 
-    # create_by = models.CharField(max_length=100, blank=True, null=True)
-    # created_date = models.DateField(blank=True, null=True)
-    #
-    # update_by = models.CharField(max_length=100, blank=True, null=True)
-    # update_date = models.DateField(blank=True, null=True)
-
     def __str__(self):
         return self.product
 
