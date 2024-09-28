@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+.content-section {
+    padding: 40px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#logout {
+    margin-bottom: 20px;
+}
+
+#logoutButton {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+
+
+
+

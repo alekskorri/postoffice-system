@@ -1,0 +1,54 @@
+
+body {
+    background-image: url('/static/image/background.jpg');
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+h1.fancy-title {
+    margin-top: 10px;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#create-class {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    width: 100%;
+}

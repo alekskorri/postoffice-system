@@ -1,0 +1,63 @@
+body {
+    background-image: url('/static/image/background.jpg');
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    background-size: 90%;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: -webkit-body;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-family: -webkit-body;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+
+#update-class {
+    max-width: 700px;
+    margin-top:50px;
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(145deg, rgba(0, 123, 255, 0.9), rgba(0, 230, 245, 0.8));
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    color: white;
+}
+
+.form-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
