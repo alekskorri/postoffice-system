@@ -36,6 +36,7 @@
     <table class="table table-secondary table-striped">
         <thead class="table-dark">
         <tr>
+            <th scope="col">Nr.</th>
             <th scope="col">Shop</th>
             <th scope="col">Product</th>
             <th scope="col">Client</th>
@@ -47,9 +48,11 @@
         </tr>
         </thead>
 
+
         <tbody>
         {% for data in page_obj %}
         <tr>
+            <th scope="row">{{ forloop.counter|add:page_obj.start_index|add:"-1" }}</th>
             <th scope="row">{{ data.shop }}</th>
             <th scope="row">{{ data.product }}</th>
             <th scope="row">{{ data.client }}</th>

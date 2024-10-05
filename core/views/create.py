@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from ..forms import OrderForm
 from django.contrib import messages
 from django.db import transaction
-from django.utils import timezone
 
 
 def create(request):

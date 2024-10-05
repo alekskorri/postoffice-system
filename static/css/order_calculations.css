@@ -1,8 +1,9 @@
-#cancelled {
+#calc {
   min-height: 70vh;
   display: flex;
   flex-direction: column;
 }
+
 
 h1.fancy-title {
     margin-top: 15px;

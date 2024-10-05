@@ -23,18 +23,10 @@ body {
     margin-left: 0;
 }
 
-.form-group label {
-    color: #000;
-    font-family: 'Georgia', serif;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
 .form-control {
-    background-color: #87ceeb;
-    color: #000;
-    border: 1px solid #000;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
     border-radius: 0.25rem;
     padding: 0.5rem;
     width: 100%;
@@ -42,21 +34,29 @@ body {
 }
 
 .form-control:focus {
-    background-color: #87d6eb;
-    color: #000;
-    border-color: #000;
+    background-color: #444;
+    color: #fff;
+    border-color: #777;
     outline: none;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .form-control:hover {
-    background-color: #87d6eb;
-    border-color: #000;
+    background-color: #444;
+    border-color: #777;
 }
 
 .form-control option {
-    background-color: #87d6eb;
-    color: #000;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-group label {
+    color: #ccc;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 .pagination {

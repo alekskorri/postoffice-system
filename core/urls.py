@@ -8,6 +8,7 @@ from .views.delete import delete
 from .views.create import create
 from .views.sent_packages import sent_packages, mark_order_sent
 from .views.cancelled_packages import cancelled_packages, mark_order_cancelled
+from .views.order_calculations import order_calculations
 
 urlpatterns = [
     path('', home, name="home"),
@@ -19,6 +20,7 @@ urlpatterns = [
     path('info/<id>', info, name="info"),
     path('edit/<id>', edit, name="edit"),
     path('delete/<id>', delete, name="delete"),
+    path('order_calculations', order_calculations, name="order_calculations"),
 ]
 
 if settings.DEBUG:
