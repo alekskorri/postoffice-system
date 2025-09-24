@@ -13,6 +13,7 @@
 <body>
 {% include 'navbar.html' %}
 
+<main class="flex-grow-1">
 {% block content %}
   <h1 class="text-center fancy-title">HOME</h1>
 
@@ -87,6 +88,7 @@
     </nav>
 </div>
 {% endblock %}
+  </main>
 
 {% include 'footer.html' %}
 

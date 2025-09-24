@@ -39,7 +39,10 @@ def order_calculations(request):
 
         request.session['selected_orders'] = selected_orders
         request.session.modified = True
-        return redirect('order_calculations')
+
+        current_page = request.POST.get('page', 1)
+        selected_shop = request.POST.get('shop', '')
+        return redirect(f'{request.path}?page={current_page}&shop={selected_shop}')
 
     selected_orders_objs = SentPackages.objects.filter(id__in=selected_orders).order_by("-date_sent")
     total_sum = sum(order.total for order in selected_orders_objs)
