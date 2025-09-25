@@ -20,17 +20,48 @@ Designed for simplicity and clear role management:
 
 ## Screenshots
 
-### Login Page
-![Login](screenshots/login.png)
+<table>
+<tr>
+<td align="center">
 
-### Register Page
-![Register](screenshots/register.png)
+**Login**  
+<img src="screenshots/login.png" width="300">
 
-### Admin Home (Manage Deliveries)
-![Home(screenshots/home.png)
+</td>
+<td align="center">
 
-### Calculations
-![Calculations](screenshots/calculations.png)
+**Register**  
+<img src="screenshots/register.png" width="300">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+**Home**  
+<img src="screenshots/home_admin.png" width="620">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+**Calculations**  
+<img src="screenshots/calculations.png" width="620">
+
+</td>
+</tr>
+</table>
 
 ---
 
